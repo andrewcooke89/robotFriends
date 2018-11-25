@@ -35,6 +35,7 @@ class AddRobot extends Component {
       robotsArr.push(this.state.robot);
       this.props.onAddRobot(robotsArr);
     };
+
     const styles = {
       padding: "5px",
       marginLeft: "10px",
