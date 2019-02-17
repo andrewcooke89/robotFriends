@@ -53,7 +53,7 @@ class AddRobot extends Component {
           onChange={onRobotNameChange}
         />
         <input
-          type="text"
+          type="email"
           name="robotEmail"
           placeholder="Email"
           className="pa3 ba b--greeb bg-lightest-blue"

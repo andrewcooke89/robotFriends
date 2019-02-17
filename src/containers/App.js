@@ -8,6 +8,7 @@ import * as actions from "../store/actions/searchField";
 import { requestRobots } from "../store/actions/fetchRobots";
 import { connect } from "react-redux";
 import AddRobot from "../components/AddRobot";
+import DeleteRobot from "../components/DeleteRobot";
 
 class App extends Component {
   componentDidMount() {
@@ -28,6 +29,7 @@ class App extends Component {
       <div className="tc">
         <h1 className="f2">RoboFriends</h1>
         <AddRobot />
+        <DeleteRobot />
         <SearchBox searchChange={this.props.onSearchChange} />
         <Scroll>
           <ErrorBoundry>
