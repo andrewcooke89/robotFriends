@@ -46,6 +46,7 @@ class AddRobot extends Component {
     return (
       <div>
         <input
+          aria-label="robot name"
           type="text"
           name="robotName"
           placeholder="Name"
@@ -53,6 +54,7 @@ class AddRobot extends Component {
           onChange={onRobotNameChange}
         />
         <input
+          aria-label="robot email"
           type="email"
           name="robotEmail"
           placeholder="Email"

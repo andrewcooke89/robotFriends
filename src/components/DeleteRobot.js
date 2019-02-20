@@ -11,6 +11,7 @@ const DeleteRobot = () => {
   return (
     <div>
       <input
+        aria-label="robot name"
         type="text"
         placeholder="Robot Name"
         className="pa3 ba b--greeb bg-lightest-blue"
